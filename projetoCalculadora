@@ -22,6 +22,7 @@ def calculadora(num1, num2, operacao):
         print(f"O resultado da sua operação é: %.2f" %resultado)
 
 print("\n+++ Programa Calculadora +++\n")
+
 num1 = int(input("Digite o primeiro número a ser calculado: "))
 num2 = int(input("Digite o segundo número a ser calculado: "))
 operacao = int(input("\nDigite a operação desejada:\n1 - SOMA\n2 - SUBTRAÇÃO\n3 - MULTIPLICAÇÃO\n4 - DIVISÃO\n\n"))  
